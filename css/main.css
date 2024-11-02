@@ -265,6 +265,7 @@ textarea {
   display: flex;
   flex-direction: row; /* Keep items in a row */
   align-items: flex-start; /* Align other items to the top, if desired */
+  background-color: rgba(255, 255, 255, 0.5)
 }
 
 .bottom-align {
@@ -278,14 +279,14 @@ textarea {
   font-size: 36px;
   margin-top: -56px;
   font-weight: bold;
-  color: #6a6a6f;
+  color: white;
 }
 
 .distributor-code-text {
   font-size: 48px;
   margin-top: -12px;
   font-weight: bold;
-  color: #6a6a6f;
+  color: white;
 }
 @keyframes text-pulse {
   0% {
@@ -304,13 +305,13 @@ textarea {
 
 @keyframes glow {
   0% {
-    text-shadow: 0 0 5px rgba(251, 194, 62, 0.7), 0 0 10px rgba(251, 194, 62, 0.5);
+    text-shadow: 0 0 10px rgba(251, 194, 62, 0.7), 0 0 20px rgba(251, 194, 62, 0.5);
   }
   50% {
-    text-shadow: 0 0 15px rgba(251, 194, 62, 1), 0 0 20px rgba(251, 194, 62, 0.8);
+    text-shadow: 0 0 20px rgba(251, 194, 62, 1), 0 0 30px rgba(251, 194, 62, 0.8);
   }
   100% {
-    text-shadow: 0 0 5px rgba(251, 194, 62, 0.7), 0 0 10px rgba(251, 194, 62, 0.5);
+    text-shadow: 0 0 10px rgba(251, 194, 62, 0.7), 0 0 20px rgba(251, 194, 62, 0.5);
   }
 }
 
