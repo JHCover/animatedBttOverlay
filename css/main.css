@@ -265,7 +265,6 @@ textarea {
   display: flex;
   flex-direction: row; /* Keep items in a row */
   align-items: flex-start; /* Align other items to the top, if desired */
-  background-color: rgba(255, 255, 255, 0.5)
 }
 
 .bottom-align {
@@ -279,14 +278,14 @@ textarea {
   font-size: 36px;
   margin-top: -56px;
   font-weight: bold;
-  color: white;
+  color: #6a6a6f;
 }
 
 .distributor-code-text {
   font-size: 48px;
   margin-top: -12px;
   font-weight: bold;
-  color: white;
+  color: #6a6a6f;
 }
 @keyframes text-pulse {
   0% {
@@ -342,11 +341,13 @@ textarea {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 800px;
+  width: 900px;
+  height: 700px;
   padding: 20px;
-  border-radius: 10px; /* Adds rounded corners for a softer glow */
+  border-radius: 199px; /* Adds rounded corners for a softer glow */
   animation: pulse 2s infinite;
   box-shadow: 0 0 20px 10px rgba(0, 255, 0, 0.5); /* Initial shadow for continuous effect */
+  background-color: rgba(255, 255, 255, .8);
 }
 
 .outer-container {
@@ -355,6 +356,7 @@ textarea {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  /*background-color: #6a6a6f;*/
 }
 
 
